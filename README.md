@@ -8,6 +8,6 @@ From the example.py, you can see how the values of blocks are correlated with th
 
 
 Reference(s):
-[1] https://en.wikipedia.org/wiki/Moran%27s_I
-[2] https://www.statology.org/morans-i/
-[3] https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
+1) [1] https://en.wikipedia.org/wiki/Moran%27s_I
+2) [2] https://www.statology.org/morans-i/
+3) [3] https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
