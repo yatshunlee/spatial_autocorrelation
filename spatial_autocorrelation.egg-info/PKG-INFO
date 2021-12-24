@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: spatial-autocorrelation
+Version: 0.0.1a0
+Summary: Topological spatial autocorrelation analysis
+Home-page: https://github.com/yatshunlee/spatial_autocorrelation
+Author: Lee Yat Shun, Jasper
+Author-email: yatshunlee@gmail.com
+License: MIT
+Download-URL: https://github.com/yatshunlee/spatial_autocorrelation/archive/refs/tags/v0.0.1-alpha.tar.gz
+Project-URL: Bug Tracker, https://github.com/yatshunlee/spatial_autocorrelation/issues
+Description: # spatial_autocorrelation
+        Performing Moran's I to conduct correlation analysis on topological relationship.
+        
+        In statistics, Moran's I is a measure of spatial autocorrelation developed by Patrick Alfred Pierce Moran. Spatial autocorrelation is characterized by a correlation in a signal among nearby locations in space. Spatial autocorrelation is more complex than one-dimensional autocorrelation because spatial correlation is multi-dimensional (i.e. 2 or 3 dimensions of space) and multi-directional.[1]
+        
+        From the example.py, you can see how the values of blocks are correlated with the values of neighbours spatially
+        ![image](https://user-images.githubusercontent.com/69416199/143538881-3c6db158-74ba-4f41-a32c-428d06193475.png)
+        
+        
+        Reference(s):
+        [1] https://en.wikipedia.org/wiki/Moran%27s_I
+        [2] https://www.statology.org/morans-i/
+        [3] https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
+        
+Keywords: pypi,spatial_autocorrelation,Moran's I,LISA,geometrical,topological,spatial autocorrelation,spatial correlation,correlation,spatial weighted matrix
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

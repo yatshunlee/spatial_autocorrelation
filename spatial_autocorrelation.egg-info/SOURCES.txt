@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+__pycache__/__init__.cpython-38.pyc
+__pycache__/moransI.cpython-38.pyc
+spatial_autocorrelation/__init__.py
+spatial_autocorrelation/moransI.py
+spatial_autocorrelation.egg-info/PKG-INFO
+spatial_autocorrelation.egg-info/SOURCES.txt
+spatial_autocorrelation.egg-info/dependency_links.txt
+spatial_autocorrelation.egg-info/requires.txt
+spatial_autocorrelation.egg-info/top_level.txt

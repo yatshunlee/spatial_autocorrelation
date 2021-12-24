@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='spatial_autocorrelation',  # should match the package folder
     packages=['spatial_autocorrelation'],  # should match the package folder
-    version='0.0.1',  # important for updates
+    version='0.0.1-alpha',  # important for updates
     license='MIT',  # should match your chosen license
     description='Topological spatial autocorrelation analysis',
     long_description=long_description,  # loads your README.md
@@ -34,5 +34,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
 
-    download_url="https://github.com/yatshunlee/spatial_autocorrelation/archive/refs/heads/main.zip",
+    download_url="https://github.com/yatshunlee/spatial_autocorrelation/archive/refs/tags/v0.0.1-alpha.tar.gz",
 )
