@@ -1,7 +1,7 @@
 # spatial_autocorrelation
 Performing Moran's I to conduct correlation analysis on topological/geometrical relationship.
 
-Moran's I, developed by Patrick Alfred Pierce Moran [1], measures spatial autocorrelation globally based on the feature locations and values. It quantifies the relationship how 
+Moran's I, developed by Patrick Alfred Pierce Moran [1], measures spatial autocorrelation globally based on the feature locations and values. It quantifies the relationship how clustered the values of data points geometrically are, i.e. the spatial lagged.
 
 # Requirements
 This module is expected to compile for 'python 3.7-3.9'
