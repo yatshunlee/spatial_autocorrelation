@@ -1,12 +1,15 @@
-# spatial_autocorrelation
+# Spatial Autocorrelation
 Performing Moran's I to conduct correlation analysis on topological/geometrical relationship.
 
 Moran's I, developed by Patrick Alfred Pierce Moran [1], measures spatial autocorrelation globally based on the feature locations and values. It quantifies the relationship how clustered the values of data points geometrically are, i.e. the spatial lagged.
 
-# Requirements
+## Looking for fellow maintainers!
+Apologies for my laziness. :( I've been finding a decent job, studying for my master's, buiding algo for trading, and haven't updated since the date I created it. I see constantly there are people cloning it and I think the repo deserves more attention. Let me know if you would be interested in joining as a maintainer to make this better.
+
+## Requirements
 This module is expected to compile for 'python 3.7-3.9'
 
-# Usage
+## Usage
 You have to customly define the spatial weighted matrix for describing the topogical/geometrical relationship.
 You may want to refer to example/Spatial Autocorrelation.ipynb.
 
@@ -37,7 +40,7 @@ You can also visualize the high-high, high-low, low-high, low-low clusters on a 
 
     from spatial_autocorrelation import LISA_scatterplot
     
-References:
+## References:
 1) https://en.wikipedia.org/wiki/Moran%27s_I
 2) https://www.statology.org/morans-i/
 3) https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
