@@ -1,13 +1,47 @@
-# spatial_autocorrelation
-Performing Moran's I to conduct correlation analysis on topological relationship.
+# Spatial Autocorrelation
+Performing Moran's I to conduct correlation analysis on topological/geometrical relationship.
 
-In statistics, Moran's I is a measure of spatial autocorrelation developed by Patrick Alfred Pierce Moran. Spatial autocorrelation is characterized by a correlation in a signal among nearby locations in space. Spatial autocorrelation is more complex than one-dimensional autocorrelation because spatial correlation is multi-dimensional (i.e. 2 or 3 dimensions of space) and multi-directional.[1]
+Moran's I, developed by Patrick Alfred Pierce Moran [1], measures spatial autocorrelation globally based on the feature locations and values. It quantifies the relationship how clustered the values of data points geometrically are, i.e. the spatial lagged.
 
-From the example.py, you can see how the values of blocks are correlated with the values of neighbours spatially
-![image](https://user-images.githubusercontent.com/69416199/143538881-3c6db158-74ba-4f41-a32c-428d06193475.png)
+## Looking for fellow maintainers!
+Apologies for my laziness. :( I've been finding a decent job, studying for my master's, buiding algo for trading, and haven't updated since the date I created it. I see constantly there are people cloning it and I think the repo deserves more attention. Let me know if you would be interested in joining as a maintainer to make this better.
 
+## Requirements
+This module is expected to compile for 'python 3.7-3.9'
 
-Reference(s):
-[1] https://en.wikipedia.org/wiki/Moran%27s_I
-[2] https://www.statology.org/morans-i/
-[3] https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
+## Usage
+You have to customly define the spatial weighted matrix for describing the topogical/geometrical relationship.
+You may want to refer to example/Spatial Autocorrelation.ipynb.
+
+## For Moran's I (global metric)
+Moran's I is within-1 and 1.
+- -1 represents perfectly dispersed
+- 0 represents randomness
+- 1 represents perfectly clustered
+
+For calculating the global Moran's I, you can execute
+
+    from spatial_autocorrelation import global_moransI
+    
+You are also able to visualize the global relationship on a plot
+
+    from spatial_autocorrelation import moransI_scatterplot
+    
+Since it is a inferential statistics, the Moran's I value can be converted into Z score for conducting statistical hypothesis testing
+
+    from spatial_autocorrelation import hypothesis_testing
+
+## For LISA (local metric)
+You can retrieve a dataframe containing local Moran's I, Z score of each individual data point by using
+
+    from spatial_autocorrelation import get_localMoransI
+    
+You can also visualize the high-high, high-low, low-high, low-low clusters on a plot
+
+    from spatial_autocorrelation import LISA_scatterplot
+    
+## References:
+1) https://en.wikipedia.org/wiki/Moran%27s_I
+2) https://www.statology.org/morans-i/
+3) https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.htm
+4) http://ceadserv1.nku.edu/longa//geomed/ppa/doc/LocalI/LocalI.htm
